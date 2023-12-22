@@ -2,6 +2,7 @@ FROM ubuntu:18.04
 EXPOSE 27017
 EXPOSE 27018
 EXPOSE 27019
+EXPOSE 65555/tcp 8443
 RUN mkdir -p /scripts
 RUN mkdir -p
 /var/log/resmoke
